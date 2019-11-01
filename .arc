@@ -4,3 +4,6 @@ dev
 @cdn
 @static
 folder _site
+
+@http
+get /
