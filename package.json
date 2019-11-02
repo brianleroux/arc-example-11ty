@@ -2,11 +2,11 @@
   "name": "developer.begin.com",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "start": "npm run build && ARC_STATIC_SPA=false npx arc sandbox"
+    "build": "eleventy",
+    "start": "npm run build && ARC_STATIC_SPA=false && sandbox"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.9.0",
-    "@architect/sandbox": "^1.4.15"
+    "@architect/sandbox": "^1.4.16"
   }
 }
